@@ -1,0 +1,119 @@
+/*  Welcome to the land of STYLE :) */
+
+/* <text styles> */
+.labels {
+   -fx-font-size: 17px;
+   -fx-font-family: "Franklin Gothic";
+   -fx-text-fill: darkslategrey;
+   -fx-font-weight: bold;
+}
+
+.small-text {
+   -fx-font-size: 12px;
+   -fx-text-fill:darkslategrey;
+   -fx-font-weight: bold;
+   -fx-font-family: "Franklin Gothic";
+}
+
+.username-text {
+     -fx-font-size: 14px;
+     -fx-text-fill:darkslategrey;
+     -fx-font-weight: bold;
+     -fx-font-family: "Franklin Gothic";
+}
+
+.message-label {
+    -fx-font-family: "Franklin Gothic";
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+.error-label {
+   -fx-font-size: 17px;
+   -fx-font-family: "Franklin Gothic";
+   -fx-text-fill: red;
+   -fx-font-weight: bold;
+}
+
+.server-text {
+   -fx-font-size: 17px;
+   -fx-font-family: "Franklin Gothic";
+   -fx-text-fill: black;
+   -fx-font-weight: bold;
+}
+/* </text styles> */
+
+/* border style */
+.dotted-border {
+    -fx-border-insets: 7;
+    -fx-border-width: 13;
+    -fx-border-color: linear-gradient(lightblue, dimgrey);;
+    -fx-border-style: dotted;
+}
+
+.red-border {
+    -fx-border-width: 7;
+    -fx-border-color: linear-gradient(crimson, red);;
+}
+
+
+/* <buttons> */
+/* this is *NOT* a red button. its a grey to blue gradient, but im not renaming it *again* */
+.round-red {
+    -fx-background-color: linear-gradient(dimgrey, lightblue);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-family: "Franklin Gothic";
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+.message-button {
+    -fx-background-color: linear-gradient(#E7C044, lightblue);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: black;
+    -fx-font-family: "Franklin Gothic";
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+.red-button {
+    -fx-background-color: linear-gradient(crimson, red);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-family: "Franklin Gothic";
+    -fx-font-weight: bold;
+}
+
+.round-black {
+    -fx-background-color: linear-gradient(darkslategrey, mediumseagreen);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-family: "Franklin Gothic";
+    -fx-font-weight: bold;
+}
+/* </buttons> */
+
+.text-field {
+    -fx-focus-color: #E7C044;
+    -fx-faint-focus-color: #E7C04422;
+}
+
+@font-face {
+    font-family: 'Franklin Gothic';
+    src: url('networking/FRAHV.TTF');
+}
+
+
+
+
+
+
+
+
+
